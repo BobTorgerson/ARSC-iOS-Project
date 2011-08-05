@@ -1,0 +1,101 @@
+In file included from /Users/torgerso/iOSWork/ARSC/HTMLNode.m:9:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:10:30: error: libxml/HTMLparser.h: No such file or directory
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:11:23: error: HTMLParser.h: No such file or directory
+In file included from /Users/torgerso/iOSWork/ARSC/HTMLNode.m:9:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:39: error: expected specifier-qualifier-list before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:44: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:104: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:105: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:106: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:107: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.h:108: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:10:28: error: libxml/HTMLtree.h: No such file or directory
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode parent]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:16: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:16: error: (Each undeclared identifier is reported only once
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:16: error: for each function it appears in.)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode nextSibling]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:20: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode previousSibling]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:24: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:27: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:49: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode getAttributeNamed:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:71: warning: implicit declaration of function 'getAttributeNamed'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:71: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:71: warning: return makes pointer from integer without a cast
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode tagName]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:83: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode firstChild]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:89: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:93: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildrenWithAttribute:matchingName:inXMLNode:inArray:allowPartial:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:95: error: 'xmlNode' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:95: error: 'cur_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:101: error: 'xmlAttrPtr' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:101: error: expected ';' before 'attr'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:101: error: 'attr' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:106: error: 'child' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:132: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildTags:inXMLNode:inArray:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:134: error: 'xmlNode' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:134: error: 'cur_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildTags:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:158: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:163: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildTag:inXMLNode:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:165: error: 'xmlNode' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:165: error: 'cur_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildTag:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:187: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode children]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:193: error: 'xmlNode' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:193: error: 'cur_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:196: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:220: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildWithAttribute:matchingName:inXMLNode:allowPartial:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:222: error: 'xmlNode' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:222: error: 'cur_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:231: error: 'xmlAttrPtr' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:231: error: expected ';' before 'attr'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:231: error: 'attr' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:235: error: 'child' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildWithAttribute:matchingName:allowPartial:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:265: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildOfClass:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:270: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode findChildrenWithAttribute:matchingName:allowPartial:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:278: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:289: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode initWithXMLNode:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:293: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:298: error: expected ')' before 'xmlNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode appendChildContentsToString:inNode:]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:303: error: 'xmlNode' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:303: error: 'cur_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode contents]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:317: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:325: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode nodetype]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:362: warning: implicit declaration of function 'nodeType'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:362: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:365: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode allContents]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:384: warning: implicit declaration of function 'allNodeContents'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:384: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:384: warning: return makes pointer from integer without a cast
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: At top level:
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:387: error: expected ')' before '*' token
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m: In function '-[HTMLNode rawContents]':
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:409: warning: implicit declaration of function 'rawContentsOfNode'
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:409: error: '_node' undeclared (first use in this function)
+/Users/torgerso/iOSWork/ARSC/HTMLNode.m:409: warning: return makes pointer from integer without a cast
